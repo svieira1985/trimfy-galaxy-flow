@@ -158,7 +158,7 @@ const TimelineSection = () => {
           <div className="bg-gradient-primary p-8 rounded-2xl text-white">
             <h3 className="text-2xl font-bold mb-4">Cronograma Total: 3 Meses</h3>
             <p className="text-lg opacity-90 mb-6">
-              De 18 de agosto a 18 de novembro de 2024, entregando uma plataforma completa e robusta.
+              De 18 de agosto a 18 de novembro de 2025, entregando uma plataforma completa e robusta.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <div className="flex items-center">

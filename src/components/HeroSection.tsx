@@ -38,7 +38,7 @@ const HeroSection = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full"
+            className="border-white/40 text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full transition-all duration-300"
           >
             Ver Cronograma
           </Button>

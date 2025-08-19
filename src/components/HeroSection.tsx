@@ -30,6 +30,7 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8 py-4 rounded-full shadow-accent"
+            onClick={() => document.getElementById('architecture')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Conhecer Arquitetura
             <ArrowRight className="w-5 h-5 ml-2" />
@@ -39,6 +40,7 @@ const HeroSection = () => {
             variant="outline" 
             size="lg"
             className="border-white/40 text-white bg-white/10 hover:bg-white/20 backdrop-blur-sm px-8 py-4 rounded-full transition-all duration-300"
+            onClick={() => document.getElementById('timeline')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Ver Cronograma
           </Button>
